@@ -79,12 +79,12 @@ p{
 
 .portfolio { 
     /* The image used */
-    background-image: url("../images/inicio_portfolio.jpg");
+    background-image: url("../images/inicio-portfolio.jpg");
 }
 
 .acerca { 
     /* The image used */
-    background-image: url("../images/inicio_sobremi.jpg");
+    background-image: url("../images/inicio-sobremi.jpg");
 }
 
 .botonPrincipal{
