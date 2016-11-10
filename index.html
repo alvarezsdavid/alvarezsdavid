@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>David Álvarez - Personal web</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Rosario' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/funciones.js"></script>
+</head>
+<body>
+
+	<!-- Header -->
+    <header id="header"></header>
+    <script>
+        $( "#header" ).load( "header.html" );
+    </script>
+    <!-- Header -->
+
+    <!-- Contenido -->
+	<section>
+		<div class="espacioArriba espacioAbajo">
+			<div class="container">
+	            <div class="col-xs-12 col-sm-12 col-md-12">
+					<h1 class="text-align-center">Todo parece imposible hasta que se hace</h1>
+					<h3 class="text-align-center">- Nelson Mandela -</h3>
+					
+					<hr class="linea">
+				</div>
+			</div>
+		</div>
+
+		<div class="espacioAbajo">
+			<div class="container">
+	            <div class="col-xs-12 col-sm-4 col-md-3">
+	                <img src="images/foto_perfil.png" title="Foto perfil" alt="Foto perfil" class="img-circle img-responsive">
+	            </div>
+
+	            <div class="col-xs-12 col-sm-8 col-md-9">
+	            	<h2 class="text-align-center">Hola, soy David Álvarez, ¡bienvenid@ a mi web personal!</h2>
+
+					<p class="text-align-center">En esto de la informática desde 2007, en el I.E.S Nervión aprendí, por la Universidad de Sevilla pasé y en INATED trabajé. Actualmente desarrollando software en Tier1.</p>
+	                
+	                <br>
+	                <center>
+		                <a href="javascript: muestra('portfolio', 1500);" class="btn btn-primary botonPrincipal"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Proyectos destacados</a>
+		                <a href="javascript: muestra('acerca', 2000);" class="btn btn-danger botonPrincipal"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> A cerca de mí</a>
+					</center>
+	            </div>
+			</div>
+		</div>
+
+		<div class="parallax portfolio"></div>
+
+		<div class="espacioArriba espacioAbajo" id="portfolio">
+			<div class="container">
+				<h2 class="text-align-center">Proyectos destacados</h2>
+				<h4 class="text-align-center">Aquí puedes ver algunos de los últimos proyectos en los que he trabajado</h4>
+				
+				<div class="row espacioArriba espacioAbajo">
+			        <div class="col-md-7">
+			          <h3><span>Servicenter - MPAscensores</span></h3>
+			          <p>Tienda online de repuestos y componentes de la compañía MP para todo tipo de ascensores y escaleras mecánicas.</p>
+			          <p>Cargo: desarrollador</p>
+			          <p>Trabajo realizado: desarrollar portlets a medida.</p>
+			          <h4><span class="label label-primary textoLabel">Liferay</span> <span class="label label-primary textoLabel">JAVA</span> <span class="label label-primary textoLabel">JSP</span> <span class="label label-primary textoLabel">JSTL</span> <span class="label label-primary textoLabel">HTML 5</span> <span class="label label-primary textoLabel">jQuery</span> <span class="label label-primary textoLabel">Maven</span> <span class="label label-primary textoLabel">Spring</span> <span class="label label-primary textoLabel">Oracle</span> <span class="label label-primary textoLabel">jBoss</span></h4>
+			        </div>
+			        <div class="col-md-5">
+			        	<a href="http://www.mp-servicenter.com/portal" target="_blank" title="Servicenter - MPAscensores">
+			        		<img src="images/servicenter.jpg" class="img-responsive img-thumbnail" alt="Servicenter - MPAscensores">
+			        	</a>
+			        </div>
+			    </div>
+
+			    <hr>
+
+			    <div class="row espacioArriba espacioAbajo">
+			    	<div class="col-md-5">
+			        	<a href="http://shop.veritas.es/portal" target="_blank" title="Tienda Veritas">
+			        		<img src="images/veritas.jpg" class="img-responsive img-thumbnail" alt="Tienda Veritas">
+			        	</a>
+			        </div>
+			        <div class="col-md-7">
+			          <h3><span>Veritas</span></h3>
+			          <p>Tienda online de la cadena de supermercados de alimentación ecológica VERITAS, con más de 4.500 productos diferentes.</p>
+			          <p>Cargo: desarrollador</p>
+			          <p>Trabajo realizado: desarrollar portlets a medida.</p>
+			          <h4><span class="label label-primary textoLabel">Liferay</span> <span class="label label-primary textoLabel">JAVA</span> <span class="label label-primary textoLabel">JSP</span> <span class="label label-primary textoLabel">JSTL</span> <span class="label label-primary textoLabel">HTML 5</span> <span class="label label-primary textoLabel">jQuery</span> <span class="label label-primary textoLabel">Maven</span> <span class="label label-primary textoLabel">Spring</span> <span class="label label-primary textoLabel">Oracle</span> <span class="label label-primary textoLabel">jBoss</span></h4>
+			        </div>
+			    </div>
+
+			    <hr>
+
+			    <div class="row espacioArriba espacioAbajo">
+			        <div class="col-md-7">
+			          <h3><span>Precchio</span></h3>
+			          <p>Precchio Colors Concept, tienda online de ropa de mujer de cualquier edad y talla, con un concepto alegre y divertido.</p>
+			          <p>Cargo: desarrollador</p>
+			          <p>Trabajo realizado: desarrollar portlets a medida, definir URLs amigables.</p>
+			          <h4><span class="label label-primary textoLabel">Liferay</span> <span class="label label-primary textoLabel">JAVA</span> <span class="label label-primary textoLabel">JSP</span> <span class="label label-primary textoLabel">JSTL</span> <span class="label label-primary textoLabel">HTML 5</span> <span class="label label-primary textoLabel">jQuery</span> <span class="label label-primary textoLabel">Maven</span> <span class="label label-primary textoLabel">Spring</span> <span class="label label-primary textoLabel">Oracle</span> <span class="label label-primary textoLabel">jBoss</span></h4>
+			        </div>
+			        <div class="col-md-5">
+			        	<a href="http://www.precchio.com" target="_blank" title="Precchio.com">
+			        		<img src="images/precchio.jpg" class="img-responsive img-thumbnail" alt="Precchio.com">
+			        	</a>
+			        </div>
+			    </div>
+
+            </div>
+		</div>
+
+		<div class="parallax acerca"></div>
+
+		<div class="espacioArriba espacioAbajo" id="acerca">
+			<div class="container">
+				<h2 class="text-align-center">A cerca de mí</h2>
+				<h4 class="text-align-center espacioAbajo">Un poco de Bla, Bla, Bla de mi vida profesional</h4>
+
+				<p>Tras cursar un Ciclo Formativo de Grado Superior, en 2007 comencé a trabajar en INATED SL como <strong>desarrollador web</strong>. Pasados 4 años en dicha empresa, en 2011 decidí cursar <strong>Ingeniería del Software en la Universidad de Sevilla</strong>, donde considero haber adquirido otras habilidades y conocimientos, al mismo tiempo que me ha permitido conocer a personas con un gran valor profesional y humano.</p>
+				<p>Una vez finalizada mi aventura universitaria en 2015 pasé a formar parte del equipo de desarrollo de Tier1, donde sigo en la actualidad. Principalmente trabajo desarrollando portlets <strong>Liferay</strong> para clientes del sector Retail.</p>
+	            <p>El hecho de haber cursado un <strong>Ciclo Formativo de Grado Superior</strong> y posteriormente una <strong>Ingeniería</strong> me ha aportado diferentes puntos de vista, a la vez que una buena base para ser capaz de abordar cualquier tipo de proyecto.</p>
+	            <p>Me considero una persona muy <strong>trabajadora, constante y exigente consigo misma</strong>, tengo un gran sentido de la responsabilidad y me gusta afrontar nuevos retos.</p>
+			</div>
+		</div>
+	</section>
+	<!-- Contenido -->
+    
+    <!-- Footer -->
+	<footer id="footer"></footer>
+    <script>
+        $( "#footer" ).load( "footer.html" );
+    </script>
+    <!-- Footer -->
+
+</body>
+</html>
