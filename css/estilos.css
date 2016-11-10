@@ -1,0 +1,94 @@
+body{
+	font-family: 'Rosario', sans-serif;
+	padding-top: 50px;
+}
+
+footer{
+	margin-top:20px;
+	background: rgba(154, 35, 57, 1);
+	color: #dedede;
+}
+
+footer a{
+	color: #dedede;
+}
+
+footer a:hover{
+	color: #fff;
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+p{
+	font-size: 1.5em;
+}
+
+
+/************** CLASES ******************/
+
+.espacioArriba{
+	padding-top: 60px;
+}
+
+.espacioAbajo{
+	padding-bottom: 60px;
+}
+
+.designDiv{
+	margin-top:30px;
+}
+
+.design{
+	color: #dedede;
+}
+
+.contenidoFooter{
+	padding-top:20px;
+	padding-bottom:40px;
+}
+
+.redesSociales{
+	background: rgba(111, 39, 53, 1);
+}
+
+.iconoFooter{
+	color: #541e28;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+.parallax {
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio { 
+    /* The image used */
+    background-image: url("../images/inicio_portfolio.jpg");
+}
+
+.acerca { 
+    /* The image used */
+    background-image: url("../images/inicio_sobremi.jpg");
+}
+
+.botonPrincipal{
+	padding: 10px;
+	margin: 5px;
+	font-size: 1.3em;
+}
